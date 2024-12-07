@@ -1,0 +1,41 @@
+# Python fayllari
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual muhit
+venv/
+.env/
+
+# Log fayllari
+*.log
+
+# Mac OS X fayllari
+.DS_Store
+
+# Test natijalari
+.coverage
+.pytest_cache/
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Media
+media/
+
+# Static files
+staticfiles/
+
+# Virtual environment
+venv/
+.env
+
+# Database
+db.sqlite3
+
+# Mac OS X
+.DS_Store
