@@ -3,6 +3,7 @@ from django.conf.urls.static import static
 from django.urls import path
 from django.contrib import admin
 from app.views import home,category_videos
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',home),
